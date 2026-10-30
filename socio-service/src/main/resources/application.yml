@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: socio-service
+  profiles:
+    active: dev
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+server:
+  port: 8081
